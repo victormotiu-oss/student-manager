@@ -8,7 +8,7 @@ public class Student {
     private int age;
     private double meanGrade;
 
-    public Student(double meanGrade, int age, String lastName, String firstName) {
+    public Student(String meanGrade, String age, int lastName, double firstName) {
         this.meanGrade = meanGrade;
         this.age = age;
         this.lastName = lastName;
